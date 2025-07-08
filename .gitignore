@@ -1,40 +1,53 @@
-# .gitignore
-
-# System junk
+# --- SYSTEM FILES ---
 .DS_Store
-*.log
 
-# Python
+# --- PYTHON ---
+*.pyc
+*.pyo
 __pycache__/
-*.py[cod]
-*.pkl
-*.ipynb_checkpoints/
 .venv/
 .env
+*.egg-info/
 
-# Video/frames
-*.mp4
-*.avi
-frames/
-*.jpg
-*.png
+# --- NOTEBOOKS ---
+.ipynb_checkpoints/
 
-# Output data
-*.csv
-*.json
-data/*.csv
-data/*.npy
-data/*.txt
+# --- IDE / TOOLS ---
+.vscode/
+.idea/
 
-# Models & weights
+# --- MODELS + CHECKPOINTS ---
 *.pt
 *.pth
 *.onnx
 models/
 
-# Jupyter / notebooks
-*.ipynb_checkpoints/
+# --- VIDEOS + FRAMES ---
+*.mp4
+*.mov
+*.avi
+*.mkv
+video_frames/
+frames/
 
-# Misc
-.vscode/
-*.swp
+# --- IMAGE FILES ---
+*.jpg
+*.jpeg
+*.png
+*.gif
+
+# --- DATA FILES ---
+*.csv
+*.json
+*.npy
+*.npz
+data/
+
+# --- LOG FILES ---
+*.log
+logs/
+
+# --- TEMP + OUTPUT ---
+*.tmp
+*.out
+test_outputs/
