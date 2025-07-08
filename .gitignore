@@ -1,3 +1,4 @@
+cat <<EOF > .gitignore
 # --- SYSTEM FILES ---
 .DS_Store
 
@@ -51,3 +52,4 @@ logs/
 *.tmp
 *.out
 test_outputs/
+EOF
