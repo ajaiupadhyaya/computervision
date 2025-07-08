@@ -1,0 +1,40 @@
+# .gitignore
+
+# System junk
+.DS_Store
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.pkl
+*.ipynb_checkpoints/
+.venv/
+.env
+
+# Video/frames
+*.mp4
+*.avi
+frames/
+*.jpg
+*.png
+
+# Output data
+*.csv
+*.json
+data/*.csv
+data/*.npy
+data/*.txt
+
+# Models & weights
+*.pt
+*.pth
+*.onnx
+models/
+
+# Jupyter / notebooks
+*.ipynb_checkpoints/
+
+# Misc
+.vscode/
+*.swp
